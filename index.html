@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Vòng lặp For/While</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/x-icon"
+        href="https://e7.pngegg.com/pngimages/934/342/png-clipart-computer-icons-synchronization-icon-design-encapsulated-postscript-loop-arrow-miscellaneous-angle-thumbnail.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;400;500;700&family=Jost:wght@300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;700&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5" style="margin-bottom: 400px;">
+        <h5>Bài 1 : In tất cả số nguyên dương lẻ / chẵn nhỏ hơn 100 ( viết cả while và for )</h5>
+        <div class="alert alert-success  w-75">=> Số lẻ : <span id="displayOdd"> </span></div>
+        <div class="alert alert-success  w-75">=> Số chẵn : <span id="displayEven"> </span></div>
+        <button class="btn btn-success mt-1" onclick="print()">In số</button>
+
+        <h5 class="mt-5">Bài 2 : Tính tổng các số chẵn từ 1 đến n. Với n nhập từ người dùng</h5>
+        <input type="number" id="numberEx2" class="form-control my-2 w-25">
+        <div class="alert alert-success  w-25">=> Tổng : <span id="displayEx2"> </span></div>
+        <button class="btn btn-success mt-1" onclick="ex2()">Tính tổng</button>
+
+        <h5 class="mt-5">Bài 3 : Có bao nhiêu số chia hết cho 3 từ 0 đến 1000 </h5>
+        <div class="alert alert-success  w-25">=> Có : <span id="displayEx3"></span> </div>
+        <button class="btn btn-success mt-1" onclick="ex3()">Tính</button>
+
+        <h5 class="mt-5">Bài 4 : Tìm số ng.dương nhỏ nhất sao cho 1 + 2 + ...+ n > 1000 </h5>
+        <div class="alert alert-success  w-50">=> <span id="displayEx4"></span> </div>
+        <button class="btn btn-success mt-1" onclick="ex4()">Tính</button>
+
+
+        <h5 class="mt-5">Bài 5 : Viết chương trình nhập vào 2 số x, n tính tổng: S(n) = x + x^2 + x^3 + ... + x^n </h5>
+        <label for="numberX">Nhập X</label>
+        <input type="number" id="numberX" class="form-control mb-2 w-25">
+        <label for="numberN">Nhập N</label>
+        <input type="number" id="numberN" class="form-control  mb-2 w-25">
+        <div class="alert alert-success  w-50">S =  <span id="displayEx5"></span> </div>
+        <button class="btn btn-success mt-1" onclick="ex5()">Tính</button>
+    </div>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
